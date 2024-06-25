@@ -17,9 +17,11 @@ article{
 aside{
     flex: 1;
     overflow-y: auto;
+    background-color: brown;
 }
 
 
 header li.logo {
 	font-size: 36px;
+    background-color: antiquewhite;
 }
