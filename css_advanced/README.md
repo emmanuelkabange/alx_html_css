@@ -1,0 +1,1 @@
+This is an ALX project on HTML and CSS. I am required to create a weboage from scratch using only HTML and CSS. Let's see how it goes!
