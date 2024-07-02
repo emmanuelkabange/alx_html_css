@@ -1,0 +1,423 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlogo{
+    padding-left: 3rem;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.navbar a {
+    color: white;
+    text-align: right;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    justify-content: flex-end;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body{
+    background-image: url('./images/Object.png');
+    background-repeat: no-repeat;
+    height: 1055px;
+    padding-top: 1rem;
+}
+
+h1{
+    font-size: 105px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: auto;
+}
+
+/*.smile{
+    display: flex;
+    justify-content: center;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    padding: 0px, 20px;
+}
+
+span{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px, 20px;
+    font-size: 16px;
+}*/
+
+span{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 20px;
+}
+
+.smile{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: lighter;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+button{
+    box-shadow: 10px, white 10px 5px;
+    background-color: #C271FF;
+    border-radius: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.register-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.pros-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pros-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pros{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: center;
+    flex-direction: row;
+    text-wrap: wrap;
+    align-content: space-between;
+}
+
+.phillip{
+    padding: 0px 50px;
+    color:white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.lawrence{
+    padding: 0px 50px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.bruce{
+    padding: 0px 50px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.henry{
+    padding: 0px 50px;
+    color: white;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+#testimonials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C271FF;
+    margin-top: 55px;
+    padding: 50px;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+blockquote{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "Sans Source Pro", sans-serif;
+    color: white;
+    margin-left: 45px;
+}
+
+.weather-presenter h3, .weather-presenter p{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: "Sans Source Pro", sans-serif;
+    color:white;
+    margin-left: 45px;
+    margin-bottom: 5px;
+}
+
+.weather-presenter p{
+    margin-top: 5px;
+}
+
+.popular-tutorials-text h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.popular-tutorials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tutorials{
+    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 100px;
+}
+
+#tutorials h3{
+    font-weight: bolder;
+}
+
+#tutorials h4{
+    color: #C271FF;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+#tutorials p{
+    font-weight: lighter;
+}
+
+.video{
+    margin-right: 30px;
+}
+
+.smile-bottom{
+    display: flex;
+    align-items: center;
+}
+
+.smile-bottom img{
+    width: 30px;
+    height: 30px;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+}
+
+.stars p{
+    margin-left: 70px;
+    color: #C271FF;
+}
+
+#free-membership{
+    display: flex;
+    flex-direction: column;
+    background-color: #071629;
+    height: 502px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+}
+
+.free-membership-heading{
+    display: flex;
+    justify-content: center;
+}
+
+.other-options{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px;
+}
+
+.register-for-free-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-options p{
+    text-align: center;
+}
+
+
+#free-membership h3{
+    text-align: center;
+}    
+
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#faq{
+    font-family: "source sans pro", sans-serif;
+    display: flex;
+    margin: 15px;
+}
+
+.faq-heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.faq-heading h2{
+    color: black;
+}
+
+.various-faqs{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.faq1and2{
+    display: flex;
+}
+
+.faq3and4{
+    display: flex;
+}
+
+.faq1text{
+    text-align: justify;
+}
+
+.faq2text{
+    text-align: justify;
+}
+
+.faq3text{
+    text-align: justify;
+}
+
+.faq4text{
+    text-align: justify;
+}
+
+.faq1{
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.faq2{
+    padding: 50px;
+    padding-bottom: 0px;
+
+}
+
+.faq3{
+    padding: 50px;
+    padding-bottom: 0px;
+
+}
+
+.faq4{
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+/*
+.footertext{
+    color:white;
+    font-family: "source sans pro", sans-serif;
+}
+
+.footertext p{
+    text-align: center;
+}
+
+#footer{
+    background-color: #071629;
+    display: flex;
+}
+
+.footerlogoandicons{
+    display: flex;
+}
+
+.socialicons{
+    display: flex;
+    align-self: flex-end;
+}
+
+*/
+
+.footer{
+    height: 200px;
+    top: 3469px;
+    background: #071629;
+    padding-top: 8rem;
+    margin-top: 0;
+    padding: 0px;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer-text{
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-family: "source sans pro", sans-serif;
+    margin-bottom: 0px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
