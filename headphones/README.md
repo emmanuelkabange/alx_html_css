@@ -1,0 +1,1 @@
+In this project, I am implementing a headphones website homepage design from scratch, without any library, a web page. I will be using only HTML/CSS/Accessibility/Responsive design knowledges learned previously.
